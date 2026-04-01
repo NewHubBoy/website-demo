@@ -9,7 +9,9 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   const [filtersOpen, setFiltersOpen] = useState(false);
-  const [gridColumns, setGridColumns] = useState(4);
+  const [gridColumns, setGridColumns] = useState(
+    typeof window !== "undefined" && window.innerWidth < 768 ? 2 : 4
+  );
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
   return (
