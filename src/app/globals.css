@@ -84,6 +84,9 @@ body {
   overflow: hidden;
   aspect-ratio: 3/4; /* COS style is often slightly squarer or 3:4 */
   background: #f8f8f8;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .product-image-wrapper img {
@@ -91,6 +94,7 @@ body {
   height: 100%;
   object-fit: cover;
   transition: opacity 0.3s ease;
+  pointer-events: none;
 }
 
 .product-image-wrapper .hover-img {

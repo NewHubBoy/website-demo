@@ -68,7 +68,11 @@ export default function ProductCard({ product, index }: ProductCardProps) {
             ) : null
         )}
 
-      <div className="product-image-wrapper mb-3 overflow-hidden">
+      <div
+        className="product-image-wrapper mb-3 overflow-hidden select-none"
+        onContextMenu={(e) => e.preventDefault()}
+        onDragStart={(e) => e.preventDefault()}
+      >
         {product.badge && (
           <span className="absolute top-2 left-2 text-[10px] font-medium tracking-widest uppercase z-10 bg-white/80 px-2 py-1">
             {product.badge}
@@ -111,6 +115,9 @@ export default function ProductCard({ product, index }: ProductCardProps) {
           </div>
         )}
 
+        {/* Transparent shield to block image saving */}
+        <div className="absolute inset-0 z-[5]" />
+
         {/* Hover arrows */}
         {hovered && hasMultiple && (
           <>
@@ -132,9 +139,8 @@ export default function ProductCard({ product, index }: ProductCardProps) {
               {product.images.map((_, i) => (
                 <span
                   key={i}
-                  className={`w-1.5 h-1.5 rounded-full transition-colors ${
-                    i === currentImg ? "bg-black" : "bg-black/30"
-                  }`}
+                  className={`w-1.5 h-1.5 rounded-full transition-colors ${i === currentImg ? "bg-black" : "bg-black/30"
+                    }`}
                 />
               ))}
             </div>
@@ -144,17 +150,17 @@ export default function ProductCard({ product, index }: ProductCardProps) {
 
       {/* Product Info */}
       <div className="flex flex-col gap-1 px-1 mt-auto">
-        <h3 className="text-[13px] font-medium text-black leading-tight">
+        {/* <h3 className="text-[13px] font-medium text-black leading-tight">
           {product.name}
-        </h3>
-        {product.price !== undefined && product.price > 0 && (
+        </h3> */}
+        {/* {product.price !== undefined && product.price > 0 && (
           <p className="text-[13px] font-normal text-black mt-0.5">
             ${product.price.toLocaleString()}
           </p>
-        )}
-        <p className="text-[11px] text-gray-500 mt-1 uppercase tracking-wide">
+        )} */}
+        {/* <p className="text-[11px] text-gray-500 mt-1 uppercase tracking-wide">
           1 Color
-        </p>
+        </p> */}
       </div>
     </motion.article>
   );
