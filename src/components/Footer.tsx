@@ -19,12 +19,12 @@ export default function Footer() {
             合作伙伴
           </h4>
           <Link
-            href="https://umi.ai"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-4 hover:opacity-60 transition-opacity"
           >
-            <svg
+            {/* <svg
               width="48"
               height="48"
               viewBox="0 0 48 48"
@@ -37,7 +37,7 @@ export default function Footer() {
               <circle cx="24" cy="36" r="3" fill="currentColor" />
               <circle cx="12" cy="24" r="3" fill="currentColor" />
               <circle cx="36" cy="24" r="3" fill="currentColor" />
-            </svg>
+            </svg> */}
             <div>
               <span className="text-2xl font-medium tracking-[0.1em]">U米摄影</span>
               <p className="text-xs text-gray-400 mt-1 tracking-wide">

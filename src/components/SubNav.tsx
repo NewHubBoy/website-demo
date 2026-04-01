@@ -30,9 +30,9 @@ export default function SubNav({
 
         {/* Center: Main Categories */}
         <div className="flex-1 flex justify-center gap-8 text-sm font-medium tracking-wide uppercase">
-          <a href="#" className="nav-link border-b-2 border-black pb-1">
+          {/* <a href="#" className="nav-link border-b-2 border-black pb-1">
             服装
-          </a>
+          </a> */}
           {/* <a href="#" className="nav-link pb-1 text-gray-500">
             配饰
           </a> */}
