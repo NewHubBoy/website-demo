@@ -99,7 +99,7 @@ export default function ProductCard({ product, index }: ProductCardProps) {
                 sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                 className="object-cover"
                 loading={index < 8 ? "eager" : "lazy"}
-                priority={index < 8 ? "high" : undefined}
+                priority={index < 8}
                 onLoad={() => setLoaded(true)}
                 onError={() => setImageError(true)}
               />
