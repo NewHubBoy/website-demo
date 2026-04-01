@@ -59,6 +59,15 @@ export default function ProductCard({ product, index }: ProductCardProps) {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
+      {/* Preload other images on hover */}
+      {hovered &&
+        product.images.map(
+          (img, i) =>
+            i !== currentImg ? (
+              <link key={i} rel="prefetch" href={img} />
+            ) : null
+        )}
+
       <div className="product-image-wrapper mb-3 overflow-hidden">
         {product.badge && (
           <span className="absolute top-2 left-2 text-[10px] font-medium tracking-widest uppercase z-10 bg-white/80 px-2 py-1">
@@ -89,6 +98,8 @@ export default function ProductCard({ product, index }: ProductCardProps) {
                 fill
                 sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                 className="object-cover"
+                loading={index < 8 ? "eager" : "lazy"}
+                priority={index < 8 ? "high" : undefined}
                 onLoad={() => setLoaded(true)}
                 onError={() => setImageError(true)}
               />
