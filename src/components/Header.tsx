@@ -42,7 +42,7 @@ export default function Header() {
 
           {/* Center: Logo */}
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
-            <a href="#" className="logo-text text-[1.6rem] tracking-tight">COS</a>
+            <a href="#" className="logo-text text-[1.6rem] tracking-tight">Pixel Frog</a>
           </div>
 
           {/* Right: Icons & Region */}
@@ -71,7 +71,7 @@ export default function Header() {
         <div className="fixed inset-0 z-50 bg-white flex flex-col">
           <div className="flex items-center justify-between px-6 h-[64px] border-b border-[var(--border)]">
             <div className="flex-1" />
-            <div className="logo-text text-[1.6rem]">COS</div>
+            <div className="logo-text text-[1.6rem]">Pixel Frog</div>
             <div className="flex-1 flex justify-end">
               <button
                 onClick={() => setMenuOpen(false)}

@@ -9,19 +9,11 @@ export interface Product {
 }
 
 export const categories = [
-  "READY-TO-WEAR",
-  "Knitwear",
-  "Tops & Shirts",
-  "T-Shirts & Sweatshirts",
-  "Dresses & Jumpsuits",
-  "Pants & Shorts",
-  "Denim",
-  "Skirts",
-  "Swimwear",
-  "Coats & Jackets",
-  "Outerwear",
-  "Leather",
-  "Activewear",
+  "T恤衫",
+  "套头针织衫",
+  "羽绒服外套",
+  "针织外套",
+  "雪纺面料",
 ];
 
 export const products: Product[] = [
@@ -32,11 +24,11 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/A0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/A1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/A2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/A3.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/A4.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/A0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/A1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/A2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/A3.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/A4.webp"
     ]
   },
   {
@@ -46,12 +38,12 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/B0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/B1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/B2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/B3.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/B4.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/B5.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B3.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B4.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B5.webp"
     ]
   },
   {
@@ -61,11 +53,11 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/C0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/C1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/C2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/C3.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/C4.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/C0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/C1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/C2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/C3.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/C4.webp"
     ]
   },
   {
@@ -75,12 +67,12 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/D0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/D1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/D2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/D3.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/D4.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/D5.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D3.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D4.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D5.webp"
     ]
   },
   {
@@ -90,10 +82,10 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/E0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/E1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/E2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/E3.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/E0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/E1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/E2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/E3.webp"
     ]
   },
   {
@@ -103,10 +95,10 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/F0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/F1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/F2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/F3.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/F0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/F1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/F2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/F3.webp"
     ]
   },
   {
@@ -116,10 +108,10 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/G0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/G1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/G2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/G3.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/G0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/G1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/G2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/G3.webp"
     ]
   },
   {
@@ -129,10 +121,10 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/H0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/H1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/H2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/H3.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/H0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/H1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/H2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/H3.webp"
     ]
   },
   {
@@ -142,10 +134,10 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/I0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/I1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/I2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫内景_Output/I3.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/I0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/I1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/I2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/I3.webp"
     ]
   },
   {
@@ -155,13 +147,13 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/A0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/A1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/A2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/A3.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/A4.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/A5.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/A6.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A3.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A4.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A5.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A6.webp"
     ]
   },
   {
@@ -171,13 +163,13 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/B0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/B1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/B2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/B3.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/B4.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/B5.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/B6.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B3.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B4.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B5.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B6.webp"
     ]
   },
   {
@@ -187,13 +179,13 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/C0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/C1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/C2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/C3.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/C4.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/C5.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/C7.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C3.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C4.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C5.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C7.webp"
     ]
   },
   {
@@ -203,11 +195,11 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/D0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/D1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/D2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/D3.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/D4.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/D0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/D1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/D2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/D3.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/D4.webp"
     ]
   },
   {
@@ -217,11 +209,11 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/E0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/E1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/E2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/E3.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/E4.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/E0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/E1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/E2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/E3.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/E4.webp"
     ]
   },
   {
@@ -231,11 +223,11 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/F0.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/F1.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/F2.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/F3.webp",
-      "https://images.marcusd.me/fashion/T恤衫/T恤衫外景_Output/F4.webp"
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/F0.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/F1.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/F2.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/F3.webp",
+      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/F4.webp"
     ]
   },
   {
@@ -245,12 +237,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/C_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/C_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/C_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/C_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/C_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/C_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/C_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/C_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/C_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/C_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/C_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/C_6.webp"
     ]
   },
   {
@@ -260,12 +252,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/D_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/D_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/D_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/D_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/D_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/D_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/D_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/D_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/D_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/D_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/D_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/D_6.webp"
     ]
   },
   {
@@ -275,12 +267,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/E_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/E_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/E_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/E_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/E_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/E_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/E_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/E_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/E_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/E_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/E_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/E_6.webp"
     ]
   },
   {
@@ -290,12 +282,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/F_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/F_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/F_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/F_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/F_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/F_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/F_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/F_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/F_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/F_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/F_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/F_6.webp"
     ]
   },
   {
@@ -305,12 +297,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/G_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/G_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/G_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/G_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/G_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_内景_Output/G_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/G_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/G_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/G_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/G_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/G_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_内景_Output/G_6.webp"
     ]
   },
   {
@@ -320,12 +312,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/A_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/A_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/A_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/A_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/A_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/A_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/A_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/A_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/A_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/A_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/A_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/A_6.webp"
     ]
   },
   {
@@ -335,12 +327,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/B_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/B_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/B_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/B_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/B_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/B_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/B_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/B_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/B_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/B_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/B_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/B_6.webp"
     ]
   },
   {
@@ -350,12 +342,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/C_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/C_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/C_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/C_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/C_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/C_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/C_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/C_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/C_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/C_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/C_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/C_6.webp"
     ]
   },
   {
@@ -365,12 +357,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/D_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/D_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/D_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/D_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/D_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/D_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/D_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/D_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/D_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/D_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/D_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/D_6.webp"
     ]
   },
   {
@@ -380,12 +372,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/E_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/E_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/E_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/E_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/E_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/E_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/E_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/E_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/E_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/E_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/E_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/E_6.webp"
     ]
   },
   {
@@ -395,12 +387,12 @@ export const products: Product[] = [
     "category": "套头针织衫",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/F_1.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/F_2.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/F_3.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/F_4.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/F_5.webp",
-      "https://images.marcusd.me/fashion/套头针织衫/短款套头针织_外景_Output/F_6.webp"
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/F_1.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/F_2.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/F_3.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/F_4.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/F_5.webp",
+      "/proxy/images/fashion/套头针织衫/短款套头针织_外景_Output/F_6.webp"
     ]
   },
   {
@@ -410,12 +402,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/A1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/A2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/A3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/A4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/A5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/A6.webp"
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/A1.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/A2.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/A3.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/A4.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/A5.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/A6.webp"
     ]
   },
   {
@@ -425,12 +417,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/B1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/B2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/B3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/B4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/B5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/B6.webp"
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/B1.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/B2.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/B3.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/B4.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/B5.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/B6.webp"
     ]
   },
   {
@@ -440,11 +432,11 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/C1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/C2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/C3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/C4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/C5.webp"
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/C1.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/C2.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/C3.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/C4.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/C5.webp"
     ]
   },
   {
@@ -454,12 +446,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/D1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/D2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/D3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/D4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/D5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服内景_Output/D6.webp"
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/D1.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/D2.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/D3.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/D4.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/D5.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服内景_Output/D6.webp"
     ]
   },
   {
@@ -469,12 +461,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/A1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/A2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/A3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/A4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/A5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/A6.webp"
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/A1.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/A2.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/A3.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/A4.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/A5.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/A6.webp"
     ]
   },
   {
@@ -484,11 +476,11 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/B1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/B2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/B3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/B4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/B5.webp"
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/B1.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/B2.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/B3.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/B4.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/B5.webp"
     ]
   },
   {
@@ -498,11 +490,11 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/C1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/C2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/C3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/C4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/C5.webp"
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/C1.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/C2.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/C3.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/C4.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/C5.webp"
     ]
   },
   {
@@ -512,12 +504,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/D1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/D2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/D3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/D4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/D5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/短款羽绒服外景_Output/D6.webp"
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/D1.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/D2.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/D3.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/D4.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/D5.webp",
+      "/proxy/images/fashion/羽绒服外套/短款羽绒服外景_Output/D6.webp"
     ]
   },
   {
@@ -527,12 +519,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/A1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/A2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/A3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/A4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/A5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/A6.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/A1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/A2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/A3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/A4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/A5.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/A6.webp"
     ]
   },
   {
@@ -542,12 +534,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/B1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/B2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/B3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/B4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/B5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/B6.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/B1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/B2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/B3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/B4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/B5.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/B6.webp"
     ]
   },
   {
@@ -557,12 +549,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/C1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/C2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/C3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/C4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/C5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/C6.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/C1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/C2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/C3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/C4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/C5.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/C6.webp"
     ]
   },
   {
@@ -572,12 +564,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/D1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/D2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/D3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/D4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/D5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/D6.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/D1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/D2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/D3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/D4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/D5.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/D6.webp"
     ]
   },
   {
@@ -587,12 +579,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/F1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/F2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/F3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/F4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/F5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服内景_Output/F6.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/F1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/F2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/F3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/F4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/F5.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服内景_Output/F6.webp"
     ]
   },
   {
@@ -602,11 +594,11 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/A1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/A2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/A3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/A4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/A5.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/A1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/A2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/A3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/A4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/A5.webp"
     ]
   },
   {
@@ -616,12 +608,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/B1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/B2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/B3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/B4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/B5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/B6.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/B1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/B2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/B3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/B4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/B5.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/B6.webp"
     ]
   },
   {
@@ -631,12 +623,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/C1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/C2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/C3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/C4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/C5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/C6.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/C1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/C2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/C3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/C4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/C5.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/C6.webp"
     ]
   },
   {
@@ -646,12 +638,12 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/D1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/D2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/D3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/D4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/D5.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/D6.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/D1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/D2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/D3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/D4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/D5.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/D6.webp"
     ]
   },
   {
@@ -661,11 +653,11 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/E1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/E2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/E3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/E4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/E5.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/E1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/E2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/E3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/E4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/E5.webp"
     ]
   },
   {
@@ -675,11 +667,11 @@ export const products: Product[] = [
     "category": "羽绒服外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/F1.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/F2.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/F3.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/F4.webp",
-      "https://images.marcusd.me/fashion/羽绒服外套/长款羽绒服外景_Output/F5.webp"
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/F1.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/F2.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/F3.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/F4.webp",
+      "/proxy/images/fashion/羽绒服外套/长款羽绒服外景_Output/F5.webp"
     ]
   },
   {
@@ -689,12 +681,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/A1.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/A2.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/A3.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/A4.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/A5.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/A6.webp"
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/A1.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/A2.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/A3.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/A4.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/A5.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/A6.webp"
     ]
   },
   {
@@ -704,13 +696,13 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/B1.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/B2.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/B3.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/B4.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/B5.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/B6.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/B7.webp"
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/B1.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/B2.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/B3.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/B4.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/B5.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/B6.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/B7.webp"
     ]
   },
   {
@@ -720,12 +712,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/C1.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/C2.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/C3.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/C4.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/C5.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/C6.webp"
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/C1.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/C2.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/C3.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/C4.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/C5.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/C6.webp"
     ]
   },
   {
@@ -735,11 +727,11 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/D1.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/D2.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/D3.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/D4.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/D5.webp"
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/D1.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/D2.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/D3.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/D4.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/D5.webp"
     ]
   },
   {
@@ -749,11 +741,11 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/E1.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/E2.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/E3.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/E4.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套内景_Output/E5.webp"
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/E1.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/E2.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/E3.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/E4.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套内景_Output/E5.webp"
     ]
   },
   {
@@ -763,13 +755,13 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/A0.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/A1.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/A2.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/A3.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/A4.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/A5.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/A6.webp"
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/A0.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/A1.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/A2.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/A3.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/A4.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/A5.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/A6.webp"
     ]
   },
   {
@@ -779,12 +771,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/B0.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/B1.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/B2.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/B3.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/B4.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/B5.webp"
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/B0.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/B1.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/B2.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/B3.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/B4.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/B5.webp"
     ]
   },
   {
@@ -794,12 +786,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/C0.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/C1.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/C2.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/C3.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/C4.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/C5.webp"
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/C0.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/C1.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/C2.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/C3.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/C4.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/C5.webp"
     ]
   },
   {
@@ -809,12 +801,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/E0.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/E1.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/E2.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/E3.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/E4.webp",
-      "https://images.marcusd.me/fashion/针织外套/短款毛衣外套外景_Output/E5.webp"
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/E0.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/E1.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/E2.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/E3.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/E4.webp",
+      "/proxy/images/fashion/针织外套/短款毛衣外套外景_Output/E5.webp"
     ]
   },
   {
@@ -824,13 +816,13 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/A0.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/A1.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/A2.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/A3.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/A4.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/A5.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/A6.webp"
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/A0.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/A1.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/A2.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/A3.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/A4.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/A5.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/A6.webp"
     ]
   },
   {
@@ -840,12 +832,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/B0.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/B2.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/B3.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/B4.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/B5.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/B6.webp"
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/B0.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/B2.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/B3.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/B4.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/B5.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/B6.webp"
     ]
   },
   {
@@ -855,12 +847,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/C0.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/C1.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/C2.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/C3.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/C4.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/C5.webp"
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/C0.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/C1.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/C2.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/C3.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/C4.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/C5.webp"
     ]
   },
   {
@@ -870,12 +862,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/D0.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/D1.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/D2.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/D3.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/D4.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套内景_Output/D5.webp"
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/D0.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/D1.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/D2.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/D3.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/D4.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套内景_Output/D5.webp"
     ]
   },
   {
@@ -885,13 +877,13 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/A0.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/A1.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/A2.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/A3.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/A4.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/A5.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/A6.webp"
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/A0.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/A1.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/A2.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/A3.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/A4.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/A5.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/A6.webp"
     ]
   },
   {
@@ -901,12 +893,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/B0.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/B1.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/B2.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/B3.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/B4.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/B5.webp"
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/B0.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/B1.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/B2.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/B3.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/B4.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/B5.webp"
     ]
   },
   {
@@ -916,12 +908,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/C0.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/C1.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/C2.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/C3.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/C4.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/C5.webp"
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/C0.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/C1.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/C2.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/C3.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/C4.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/C5.webp"
     ]
   },
   {
@@ -931,12 +923,12 @@ export const products: Product[] = [
     "category": "针织外套",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/D0.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/D1.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/D2.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/D3.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/D4.webp",
-      "https://images.marcusd.me/fashion/针织外套/长款毛衣外套外景_Output/D5.webp"
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/D0.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/D1.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/D2.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/D3.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/D4.webp",
+      "/proxy/images/fashion/针织外套/长款毛衣外套外景_Output/D5.webp"
     ]
   },
   {
@@ -946,12 +938,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/A_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/A_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/A_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/A_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/A_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/A_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/A_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/A_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/A_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/A_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/A_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/A_6.webp"
     ]
   },
   {
@@ -961,12 +953,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/B_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/B_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/B_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/B_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/B_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/B_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/B_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/B_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/B_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/B_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/B_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/B_6.webp"
     ]
   },
   {
@@ -976,12 +968,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/C_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/C_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/C_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/C_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/C_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/C_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/C_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/C_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/C_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/C_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/C_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/C_6.webp"
     ]
   },
   {
@@ -991,12 +983,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/D_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/D_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/D_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/D_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/D_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/D_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/D_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/D_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/D_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/D_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/D_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/D_6.webp"
     ]
   },
   {
@@ -1006,12 +998,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/E_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/E_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/E_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/E_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/E_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/E_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/E_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/E_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/E_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/E_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/E_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/E_6.webp"
     ]
   },
   {
@@ -1021,12 +1013,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/F_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/F_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/F_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/F_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/F_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺内景_Output/F_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/F_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/F_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/F_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/F_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/F_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺内景_Output/F_6.webp"
     ]
   },
   {
@@ -1036,12 +1028,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/A_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/A_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/A_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/A_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/A_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/A_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/A_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/A_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/A_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/A_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/A_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/A_6.webp"
     ]
   },
   {
@@ -1051,12 +1043,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/B_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/B_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/B_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/B_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/B_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/B_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/B_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/B_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/B_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/B_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/B_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/B_6.webp"
     ]
   },
   {
@@ -1066,12 +1058,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/C_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/C_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/C_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/C_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/C_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/C_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/C_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/C_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/C_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/C_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/C_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/C_6.webp"
     ]
   },
   {
@@ -1081,12 +1073,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/D_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/D_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/D_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/D_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/D_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/D_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/D_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/D_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/D_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/D_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/D_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/D_6.webp"
     ]
   },
   {
@@ -1096,12 +1088,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/E_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/E_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/E_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/E_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/E_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/E_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/E_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/E_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/E_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/E_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/E_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/E_6.webp"
     ]
   },
   {
@@ -1111,12 +1103,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/F_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/F_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/F_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/F_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/F_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/短款雪纺外景_Output/F_6.webp"
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/F_1.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/F_2.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/F_3.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/F_4.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/F_5.webp",
+      "/proxy/images/fashion/雪纺面料/短款雪纺外景_Output/F_6.webp"
     ]
   },
   {
@@ -1126,12 +1118,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/A_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/A_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/A_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/A_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/A_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/A_6.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/A_1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/A_2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/A_3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/A_4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/A_5.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/A_6.webp"
     ]
   },
   {
@@ -1141,12 +1133,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/B_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/B_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/B_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/B_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/B_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/B_6.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/B_1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/B_2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/B_3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/B_4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/B_5.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/B_6.webp"
     ]
   },
   {
@@ -1156,12 +1148,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/C_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/C_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/C_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/C_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/C_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/C_6.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/C_1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/C_2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/C_3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/C_4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/C_5.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/C_6.webp"
     ]
   },
   {
@@ -1171,12 +1163,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/D_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/D_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/D_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/D_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/D_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/D_6.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/D_1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/D_2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/D_3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/D_4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/D_5.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/D_6.webp"
     ]
   },
   {
@@ -1186,12 +1178,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/E_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/E_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/E_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/E_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/E_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺内景_Output/E_6.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/E_1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/E_2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/E_3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/E_4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/E_5.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺内景_Output/E_6.webp"
     ]
   },
   {
@@ -1201,12 +1193,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/A_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/A_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/A_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/A_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/A_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/A_6.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/A_1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/A_2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/A_3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/A_4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/A_5.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/A_6.webp"
     ]
   },
   {
@@ -1216,12 +1208,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/B_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/B_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/B_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/B_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/B_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/B_6.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/B_1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/B_2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/B_3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/B_4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/B_5.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/B_6.webp"
     ]
   },
   {
@@ -1231,12 +1223,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/C_1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/C_2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/C_3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/C_4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/C_5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/C_6.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/C_1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/C_2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/C_3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/C_4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/C_5.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/C_6.webp"
     ]
   },
   {
@@ -1246,12 +1238,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/D1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/D2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/D3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/D4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/D5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/D6.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/D1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/D2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/D3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/D4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/D5.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/D6.webp"
     ]
   },
   {
@@ -1261,12 +1253,12 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/E1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/E2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/E3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/E4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/E5.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/E6.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/E1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/E2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/E3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/E4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/E5.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/E6.webp"
     ]
   },
   {
@@ -1276,11 +1268,11 @@ export const products: Product[] = [
     "category": "雪纺面料",
     "badge": "",
     "images": [
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/F1.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/F2.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/F3.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/F4.webp",
-      "https://images.marcusd.me/fashion/雪纺面料/长款雪纺外景_Output/F5.webp"
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/F1.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/F2.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/F3.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/F4.webp",
+      "/proxy/images/fashion/雪纺面料/长款雪纺外景_Output/F5.webp"
     ]
   }
 ];

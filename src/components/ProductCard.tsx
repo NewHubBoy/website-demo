@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import type { Product } from "@/data/products";
-import { useState } from "react";
+import { useState, useCallback, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface ProductCardProps {
   product: Product;
@@ -12,10 +13,31 @@ interface ProductCardProps {
 
 export default function ProductCard({ product, index }: ProductCardProps) {
   const [imageError, setImageError] = useState(false);
+  const [currentImg, setCurrentImg] = useState(0);
+  const [hovered, setHovered] = useState(false);
+  const [loaded, setLoaded] = useState(false);
 
-  // COS style hover image: If there are multiple images, display the second one on hover
-  const mainImage = product.images[0];
-  const hoverImage = product.images.length > 1 ? product.images[1] : null;
+  const hasMultiple = product.images.length > 1;
+
+  useEffect(() => {
+    setLoaded(false);
+  }, [currentImg]);
+
+  const prev = useCallback(
+    (e: React.MouseEvent) => {
+      e.stopPropagation();
+      setCurrentImg((i) => (i - 1 + product.images.length) % product.images.length);
+    },
+    [product.images.length]
+  );
+
+  const next = useCallback(
+    (e: React.MouseEvent) => {
+      e.stopPropagation();
+      setCurrentImg((i) => (i + 1) % product.images.length);
+    },
+    [product.images.length]
+  );
 
   return (
     <motion.article
@@ -27,40 +49,70 @@ export default function ProductCard({ product, index }: ProductCardProps) {
         delay: (index % 4) * 0.05,
         ease: "easeOut",
       }}
-      className="group cursor-pointer flex flex-col h-full"
+      className="group cursor-pointer flex flex-col h-full mb-6"
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => {
+        setHovered(false);
+        setCurrentImg(0);
+      }}
     >
       <div className="product-image-wrapper mb-3">
-        {/* Run-way or Collection Badge could go here, COS keeps it minimal */}
         {product.badge && (
           <span className="absolute top-2 left-2 text-[10px] font-medium tracking-widest uppercase z-10 bg-white/80 px-2 py-1">
             {product.badge}
           </span>
         )}
 
+        {/* Loading skeleton */}
+        {!loaded && !imageError && (
+          <div className="absolute inset-0 z-[1] bg-[#f5f5f5] animate-pulse" />
+        )}
+
         {!imageError ? (
-          <>
-            <Image
-              src={mainImage}
-              alt={product.name}
-              fill
-              sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-              className="object-cover"
-              onError={() => setImageError(true)}
-            />
-            {hoverImage && (
-              <Image
-                src={hoverImage}
-                alt={`${product.name} Alternate View`}
-                fill
-                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                className="hover-img object-cover"
-              />
-            )}
-          </>
+          <Image
+            key={currentImg}
+            src={product.images[currentImg]}
+            alt={`${product.name} ${currentImg + 1}`}
+            fill
+            sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+            className={`object-cover transition-opacity duration-300 ${loaded ? "opacity-100" : "opacity-0"}`}
+            onLoad={() => setLoaded(true)}
+            onError={() => setImageError(true)}
+          />
         ) : (
           <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
             <span className="text-gray-400 text-xs tracking-widest font-medium">COS</span>
           </div>
+        )}
+
+        {/* Hover arrows */}
+        {hovered && hasMultiple && (
+          <>
+            <button
+              onClick={prev}
+              className="absolute left-2 top-1/2 -translate-y-1/2 z-10 w-8 h-8 bg-white/80 hover:bg-white flex items-center justify-center transition-colors"
+            >
+              <ChevronLeft size={16} strokeWidth={1.5} />
+            </button>
+            <button
+              onClick={next}
+              className="absolute right-2 top-1/2 -translate-y-1/2 z-10 w-8 h-8 bg-white/80 hover:bg-white flex items-center justify-center transition-colors"
+            >
+              <ChevronRight size={16} strokeWidth={1.5} />
+            </button>
+
+            {/* Dots indicator */}
+            <div className="absolute bottom-2 left-1/2 -translate-x-1/2 z-10 flex gap-1">
+              {product.images.map((_, i) => (
+                <span
+                  key={i}
+                  className={`w-1.5 h-1.5 rounded-full transition-colors ${
+                    i === currentImg ? "bg-black" : "bg-black/30"
+                  }`}
+                />
+              ))}
+            </div>
+          </>
         )}
       </div>
 
@@ -69,12 +121,11 @@ export default function ProductCard({ product, index }: ProductCardProps) {
         <h3 className="text-[13px] font-medium text-black leading-tight">
           {product.name}
         </h3>
-        {product.price !== undefined && (
+        {product.price !== undefined && product.price > 0 && (
           <p className="text-[13px] font-normal text-black mt-0.5">
             ${product.price.toLocaleString()}
           </p>
         )}
-        {/* Optional colors text often found on COS */}
         <p className="text-[11px] text-gray-500 mt-1 uppercase tracking-wide">
           1 Color
         </p>
@@ -82,4 +133,3 @@ export default function ProductCard({ product, index }: ProductCardProps) {
     </motion.article>
   );
 }
-

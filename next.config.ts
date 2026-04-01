@@ -4,12 +4,14 @@ const nextConfig: NextConfig = {
   output: "standalone",
   images: {
     unoptimized: true,
-    remotePatterns: [
+  },
+  async rewrites() {
+    return [
       {
-        protocol: "https",
-        hostname: "images.unsplash.com",
+        source: "/proxy/images/:path*",
+        destination: "http://images.marcusd.me/:path*",
       },
-    ],
+    ];
   },
 };
 

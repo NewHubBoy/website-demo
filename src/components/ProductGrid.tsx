@@ -6,15 +6,19 @@ import { useEffect, useState } from "react";
 
 interface ProductGridProps {
   columns?: number;
+  selectedCategories?: string[];
 }
 
-export default function ProductGrid({ columns = 4 }: ProductGridProps) {
-  // To handle hydration perfectly, we might just default to the passed columns.
+export default function ProductGrid({ columns = 4, selectedCategories = [] }: ProductGridProps) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  const filteredProducts = selectedCategories.length > 0
+    ? products.filter((p) => selectedCategories.includes(p.category))
+    : products;
 
   return (
     <section className="w-full">
@@ -26,7 +30,7 @@ export default function ProductGrid({ columns = 4 }: ProductGridProps) {
           gap: "2px", // COS uses very tight or 0 gap sometimes, let's use 2px or small padding
         }}
       >
-        {products.map((product, index) => (
+        {filteredProducts.map((product, index) => (
           <div key={product.id} className="bg-white overflow-hidden p-1">
             <ProductCard product={product} index={index} />
           </div>
