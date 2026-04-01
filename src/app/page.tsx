@@ -25,7 +25,7 @@ export default function Home() {
           <ProductGrid columns={gridColumns} selectedCategories={selectedCategories} />
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
       <FilterDrawer
         isOpen={filtersOpen}
         onClose={() => setFiltersOpen(false)}
