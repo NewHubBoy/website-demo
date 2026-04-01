@@ -1,26 +1,327 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f7f7f7;
+  --foreground: #000000;
+  --muted: #999999;
+  --border: #e5e5e5;
+  --accent: #1a1a1a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ====== Base Styles ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ====== Custom Scrollbar ====== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* ====== Logo Font Style ====== */
+.logo-text {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: 0.35em;
+  /* offset the trailing spacing on the last letter so it stays perfectly centered */
+  margin-right: -0.35em; 
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+/* ====== Category Nav ====== */
+.category-link {
+  position: relative;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--foreground);
+  text-decoration: none;
+  padding-bottom: 2px;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+}
+
+.category-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--foreground);
+  transition: width 0.3s ease;
+}
+
+.category-link:hover::after,
+.category-link.active::after {
+  width: 100%;
+}
+
+.category-link.active {
+  font-weight: 700;
+}
+
+/* ====== Product Card ====== */
+.product-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 2/3;
+  background: #eee;
+}
+
+.product-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.product-image-wrapper:hover img {
+  transform: scale(1.03);
+}
+
+.product-nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 2;
+}
+
+.product-image-wrapper:hover .product-nav-arrow {
+  opacity: 1;
+}
+
+.product-nav-arrow.left {
+  left: 8px;
+}
+
+.product-nav-arrow.right {
+  right: 8px;
+}
+
+/* ====== Badge ====== */
+.product-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.625rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--foreground);
+  z-index: 2;
+}
+
+/* ====== Announcement Bar ====== */
+.announcement-bar {
+  background: var(--foreground);
+  color: white;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.announcement-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+  padding: 0 16px;
+}
+
+.announcement-arrow:hover {
+  opacity: 1;
+}
+
+.announcement-arrow.left {
+  left: 0;
+}
+
+.announcement-arrow.right {
+  right: 0;
+}
+
+/* ====== Filter Drawer ====== */
+.filter-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  z-index: 50;
+}
+
+.filter-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  max-width: 100vw;
+  background: white;
+  z-index: 51;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* ====== Footer ====== */
+.footer-link {
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.3s;
+  line-height: 2;
+}
+
+.footer-link:hover {
+  color: var(--foreground);
+}
+
+/* ====== Hero Gradient ====== */
+.hero-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(180, 175, 170, 0.3) 0%,
+    rgba(120, 115, 110, 0.6) 50%,
+    rgba(60, 55, 50, 0.9) 100%
+  );
+}
+
+/* ====== Accordion Styles ====== */
+.filter-section {
+  border-bottom: 1px solid var(--border);
+}
+
+.filter-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  color: var(--foreground);
+}
+
+.filter-section-content {
+  padding: 0 24px 20px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.filter-option:hover {
+  color: var(--foreground);
+}
+
+/* ====== Sort Dropdown ====== */
+.sort-dropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: none;
+  background: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: var(--foreground);
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .logo-text {
+    font-size: 1.25rem;
+  }
+
+  .filter-drawer {
+    width: 100vw;
+  }
 }
