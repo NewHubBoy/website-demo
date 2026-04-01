@@ -1,13 +1,6 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
-
-const cormorant = Cormorant_Garamond({
-  variable: "--font-serif",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  display: "swap",
-});
 
 const inter = Inter({
   variable: "--font-sans",
@@ -17,9 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "MAISON — Women's Ready-to-Wear | Luxury Fashion",
-  description:
-    "Discover the women's ready-to-wear collection. Silk dresses, tweed ensembles, embellished looks, and more from the House.",
+  title: "New Arrivals - COS | COS US",
+  description: "Explore the latest additions to our women's collection. Shop timeless, modern pieces designed to last.",
 };
 
 export default function RootLayout({
@@ -28,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
+    <html lang="en" className={`${inter.variable}`}>
       <body className="min-h-screen flex flex-col antialiased">
         {children}
       </body>

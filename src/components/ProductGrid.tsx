@@ -2,37 +2,35 @@
 
 import { products } from "@/data/products";
 import ProductCard from "./ProductCard";
+import { useEffect, useState } from "react";
 
-export default function ProductGrid() {
+interface ProductGridProps {
+  columns?: number;
+}
+
+export default function ProductGrid({ columns = 4 }: ProductGridProps) {
+  // To handle hydration perfectly, we might just default to the passed columns.
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
-    <section className="px-0">
+    <section className="w-full">
       <div
-        className="product-grid"
+        className="product-grid w-full transition-all duration-300"
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(4, 1fr)",
-          gap: "1px",
-          background: "#e8e8e8",
+          gridTemplateColumns: `repeat(${columns}, 1fr)`,
+          gap: "2px", // COS uses very tight or 0 gap sometimes, let's use 2px or small padding
         }}
       >
-        {products.map((product, index) => {
-          // Create mixed layout: some items span 2 columns for editorial feel
-          const isLarge = product.isLarge;
-
-          return (
-            <div
-              key={product.id}
-              className="bg-[var(--background)]"
-              style={
-                isLarge
-                  ? { gridColumn: "span 2", gridRow: "span 2" }
-                  : undefined
-              }
-            >
-              <ProductCard product={product} index={index} />
-            </div>
-          );
-        })}
+        {products.map((product, index) => (
+          <div key={product.id} className="bg-white overflow-hidden p-1">
+            <ProductCard product={product} index={index} />
+          </div>
+        ))}
       </div>
     </section>
   );
