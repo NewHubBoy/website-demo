@@ -4,7 +4,9 @@
       "Bash(done)",
       "Bash(node /Volumes/DockCase/code/website-demo/scripts/upload-images.mjs)",
       "Bash(cp /Volumes/DockCase/code/website-demo/scripts/upload-images.mjs /Volumes/DockCase/code/s3-images/upload-images.mjs)",
-      "Bash(node upload-images.mjs)"
+      "Bash(node upload-images.mjs)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
