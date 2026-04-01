@@ -55,7 +55,7 @@ export default function FilterDrawer({
             {/* Header */}
             <div className="flex items-center justify-between px-6 py-5 border-b border-[var(--border)]">
               <h2 className="text-xs tracking-[0.15em] uppercase font-medium">
-                Filters
+                筛选
               </h2>
               <div className="flex items-center gap-4">
                 {selectedCategories.length > 0 && (
@@ -63,7 +63,7 @@ export default function FilterDrawer({
                     onClick={clearAll}
                     className="text-xs text-muted underline underline-offset-2 hover:text-foreground transition-colors"
                   >
-                    Clear All
+                    清除全部
                   </button>
                 )}
                 <button
@@ -84,7 +84,7 @@ export default function FilterDrawer({
                   onClick={() => setIsExpanded(!isExpanded)}
                 >
                   <span>
-                    Categories
+                    分类
                     {selectedCategories.length > 0 && (
                       <span className="text-muted ml-2">
                         ({selectedCategories.length})
@@ -148,7 +148,7 @@ export default function FilterDrawer({
                 onClick={onClose}
                 className="w-full py-3.5 bg-black text-white text-xs tracking-[0.15em] uppercase font-medium hover:bg-gray-900 transition-colors"
               >
-                Show {selectedCategories.length > 0 ? "Filtered" : "All"} Items
+                显示 {selectedCategories.length > 0 ? "已筛选" : "全部"} 商品
               </button>
             </div>
           </motion.div>

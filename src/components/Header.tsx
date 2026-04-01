@@ -18,15 +18,14 @@ export default function Header() {
   return (
     <>
       <header
-        className={`sticky top-0 w-full z-40 transition-all duration-300 ${
-          scrolled ? "bg-white shadow-[0_1px_4px_rgba(0,0,0,0.05)]" : "bg-white"
-        }`}
+        className={`sticky top-0 w-full z-40 transition-all duration-300 ${scrolled ? "bg-white shadow-[0_1px_4px_rgba(0,0,0,0.05)]" : "bg-white"
+          }`}
       >
         <div className="relative flex items-center justify-between px-6 md:px-10 h-[64px]">
           {/* Left: main categories */}
           <div className="flex-1 hidden md:flex items-center gap-6">
-            <a href="#" className="nav-link font-medium">WOMEN</a>
-            <a href="#" className="nav-link">MEN</a>
+            {/* <a href="#" className="nav-link font-medium">女装</a> */}
+            {/* <a href="#" className="nav-link">男装</a> */}
           </div>
 
           {/* Left: Mobile Menu Trigger */}
@@ -82,12 +81,12 @@ export default function Header() {
             </div>
           </div>
           <nav className="flex flex-col p-6 gap-6 overflow-y-auto">
-            <a href="#" className="text-xl font-medium tracking-wide">WOMEN</a>
-            <a href="#" className="text-xl font-medium tracking-wide">MEN</a>
+            {/* <a href="#" className="text-xl font-medium tracking-wide">女装</a>
+            <a href="#" className="text-xl font-medium tracking-wide">男装</a> */}
             <div className="h-px bg-[var(--border)] my-4" />
-            <a href="#" className="text-sm">Account</a>
-            <a href="#" className="text-sm">Wishlist</a>
-            <a href="#" className="text-sm">Settings (US/EN)</a>
+            <a href="#" className="text-sm">账户</a>
+            <a href="#" className="text-sm">收藏夹</a>
+            <a href="#" className="text-sm">设置 (中国/中文)</a>
           </nav>
         </div>
       )}

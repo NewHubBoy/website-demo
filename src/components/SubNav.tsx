@@ -16,7 +16,7 @@ export default function SubNav({
   return (
     <div className="sticky top-[64px] z-30 bg-white border-b border-[var(--border)] transition-all">
       <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-10 py-4 gap-4">
-        
+
         {/* Left: Filter & Sort */}
         <div className="flex-1 flex justify-start w-full md:w-auto">
           <button
@@ -24,18 +24,18 @@ export default function SubNav({
             className="tool-btn text-sm font-medium tracking-wide uppercase"
           >
             <SlidersHorizontal size={16} strokeWidth={1.5} />
-            Filter & sort
+            筛选与排序
           </button>
         </div>
 
         {/* Center: Main Categories */}
         <div className="flex-1 flex justify-center gap-8 text-sm font-medium tracking-wide uppercase">
           <a href="#" className="nav-link border-b-2 border-black pb-1">
-            CLOTHING
+            服装
           </a>
-          <a href="#" className="nav-link pb-1 text-gray-500">
-            ACCESSORIES
-          </a>
+          {/* <a href="#" className="nav-link pb-1 text-gray-500">
+            配饰
+          </a> */}
         </div>
 
         {/* Right: Grid Controls */}

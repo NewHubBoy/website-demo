@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable}`}>
+    <html lang="zh-CN" className={`${inter.variable}`}>
       <head>
         <link rel="preconnect" href="https://images.marcusd.me" />
         <link rel="dns-prefetch" href="https://images.marcusd.me" />

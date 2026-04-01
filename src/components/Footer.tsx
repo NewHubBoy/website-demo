@@ -3,29 +3,29 @@
 import { motion } from "framer-motion";
 
 const footerLinks = {
-  "Customer Service": [
-    "Contact Us",
-    "FAQs",
-    "Shipping & Returns",
-    "Order Tracking",
-    "Size Guide",
-    "Gift Cards",
-    "Store Locator",
+  "客户服务": [
+    "联系我们",
+    "常见问题",
+    "配送与退换",
+    "订单查询",
+    "尺码指南",
+    "礼品卡",
+    "门店查询",
   ],
-  "About MAISON": [
-    "Our Story",
-    "Sustainability",
-    "Careers",
-    "Corporate Information",
-    "Press",
+  "关于 PIXEL FROG": [
+    "品牌故事",
+    "可持续发展",
+    "加入我们",
+    "公司信息",
+    "媒体报道",
   ],
-  Legal: [
-    "Terms & Conditions",
-    "Privacy Policy",
-    "Cookie Policy",
-    "Accessibility",
+  "法律信息": [
+    "服务条款",
+    "隐私政策",
+    "Cookie 政策",
+    "无障碍声明",
   ],
-  "Follow Us": ["Instagram", "Facebook", "Twitter", "Pinterest", "YouTube"],
+  "关注我们": ["Instagram", "Facebook", "Twitter", "Pinterest", "YouTube"],
 };
 
 export default function Footer() {
@@ -66,23 +66,23 @@ export default function Footer() {
               className="text-2xl tracking-[0.35em] uppercase font-light"
               style={{ fontFamily: "var(--font-serif)" }}
             >
-              MAISON
+              Pixel Frog
             </div>
 
             {/* Country / Language */}
             <div className="flex items-center gap-6 text-xs text-muted">
               <button className="hover:text-foreground transition-colors tracking-wide">
-                United States
+                中国
               </button>
               <span>|</span>
               <button className="hover:text-foreground transition-colors tracking-wide">
-                English
+                中文
               </button>
             </div>
 
             {/* Copyright */}
             <p className="text-xs text-muted tracking-wide">
-              © 2025 MAISON. All Rights Reserved.
+              © 2025 PIXEL FROG. 保留所有权利。
             </p>
           </div>
         </div>

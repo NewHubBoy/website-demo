@@ -107,7 +107,7 @@ export default function ProductCard({ product, index }: ProductCardProps) {
           </AnimatePresence>
         ) : (
           <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
-            <span className="text-gray-400 text-xs tracking-widest font-medium">COS</span>
+            <span className="text-gray-400 text-xs tracking-widest font-medium">PIXEL FROG</span>
           </div>
         )}
 
