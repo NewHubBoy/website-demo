@@ -1,15 +1,15 @@
 module.exports = {
   apps: [
     {
-      name: 'gucci-demo', // 你可以在 pm2 中用来管理进程的名字
-      script: 'node',
-      args: '.next/standalone/server.js', // Next.js standalone 模式产物
-      instances: 'max', // 使用所有 CPU 核心 (Cluster 模式)
-      exec_mode: 'cluster',
+      name: 'gucci-demo',
+      script: 'server.js',
+      cwd: './.next/standalone',
+      instances: 1,           // fork 模式只能单实例（对于普通演示足够了）
+      exec_mode: 'fork',      // <-- 必须改为了 fork 模式！
       env: {
         PORT: 3000,
         NODE_ENV: 'production',
-        HOSTNAME: '0.0.0.0', // 允许所有 IP 访问
+        HOSTNAME: '0.0.0.0',
       },
     },
   ],

@@ -20,7 +20,7 @@ export default function Home() {
         gridColumns={gridColumns}
         setGridColumns={setGridColumns}
       />
-      <main className="flex-1 w-full max-w-[1920px] mx-auto pb-24">
+      <main className="flex-1 w-full mx-auto pb-24">
         <div className="pt-2 px-6 md:px-10 flex">
           <ProductGrid columns={gridColumns} selectedCategories={selectedCategories} />
         </div>

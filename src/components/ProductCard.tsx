@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import type { Product } from "@/data/products";
 import { useState, useCallback, useEffect } from "react";
@@ -16,16 +16,15 @@ export default function ProductCard({ product, index }: ProductCardProps) {
   const [currentImg, setCurrentImg] = useState(0);
   const [hovered, setHovered] = useState(false);
   const [loaded, setLoaded] = useState(false);
+  const [direction, setDirection] = useState(0);
 
   const hasMultiple = product.images.length > 1;
-
-  useEffect(() => {
-    setLoaded(false);
-  }, [currentImg]);
+  const isFirstLoad = currentImg === 0 && !loaded;
 
   const prev = useCallback(
     (e: React.MouseEvent) => {
       e.stopPropagation();
+      setDirection(-1);
       setCurrentImg((i) => (i - 1 + product.images.length) % product.images.length);
     },
     [product.images.length]
@@ -34,10 +33,17 @@ export default function ProductCard({ product, index }: ProductCardProps) {
   const next = useCallback(
     (e: React.MouseEvent) => {
       e.stopPropagation();
+      setDirection(1);
       setCurrentImg((i) => (i + 1) % product.images.length);
     },
     [product.images.length]
   );
+
+  const slideVariants = {
+    enter: (dir: number) => ({ x: dir > 0 ? "100%" : "-100%" }),
+    center: { x: 0 },
+    exit: (dir: number) => ({ x: dir > 0 ? "-100%" : "100%" }),
+  };
 
   return (
     <motion.article
@@ -51,34 +57,43 @@ export default function ProductCard({ product, index }: ProductCardProps) {
       }}
       className="group cursor-pointer flex flex-col h-full mb-6"
       onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => {
-        setHovered(false);
-        setCurrentImg(0);
-      }}
+      onMouseLeave={() => setHovered(false)}
     >
-      <div className="product-image-wrapper mb-3">
+      <div className="product-image-wrapper mb-3 overflow-hidden">
         {product.badge && (
           <span className="absolute top-2 left-2 text-[10px] font-medium tracking-widest uppercase z-10 bg-white/80 px-2 py-1">
             {product.badge}
           </span>
         )}
 
-        {/* Loading skeleton */}
-        {!loaded && !imageError && (
+        {/* Loading skeleton - only on first load */}
+        {isFirstLoad && !imageError && (
           <div className="absolute inset-0 z-[1] bg-[#f5f5f5] animate-pulse" />
         )}
 
         {!imageError ? (
-          <Image
-            key={currentImg}
-            src={product.images[currentImg]}
-            alt={`${product.name} ${currentImg + 1}`}
-            fill
-            sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            className={`object-cover transition-opacity duration-300 ${loaded ? "opacity-100" : "opacity-0"}`}
-            onLoad={() => setLoaded(true)}
-            onError={() => setImageError(true)}
-          />
+          <AnimatePresence initial={false} custom={direction} mode="popLayout">
+            <motion.div
+              key={currentImg}
+              custom={direction}
+              variants={slideVariants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{ duration: 0.3, ease: "easeInOut" }}
+              className="absolute inset-0"
+            >
+              <Image
+                src={product.images[currentImg]}
+                alt={`${product.name} ${currentImg + 1}`}
+                fill
+                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                className="object-cover"
+                onLoad={() => setLoaded(true)}
+                onError={() => setImageError(true)}
+              />
+            </motion.div>
+          </AnimatePresence>
         ) : (
           <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
             <span className="text-gray-400 text-xs tracking-widest font-medium">COS</span>
