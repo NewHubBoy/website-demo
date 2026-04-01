@@ -38,7 +38,12 @@ export default function Footer() {
               <circle cx="12" cy="24" r="3" fill="currentColor" />
               <circle cx="36" cy="24" r="3" fill="currentColor" />
             </svg>
-            <span className="text-2xl font-medium tracking-[0.1em]">U米摄影</span>
+            <div>
+              <span className="text-2xl font-medium tracking-[0.1em]">U米摄影</span>
+              <p className="text-xs text-gray-400 mt-1 tracking-wide">
+                TEL: 134 5637 0115
+              </p>
+            </div>
           </Link>
         </div>
 
