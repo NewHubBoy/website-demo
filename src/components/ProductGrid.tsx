@@ -27,7 +27,7 @@ export default function ProductGrid({ columns = 4, selectedCategories = [] }: Pr
         style={{
           display: "grid",
           gridTemplateColumns: `repeat(${columns}, 1fr)`,
-          gap: "2px", // COS uses very tight or 0 gap sometimes, let's use 2px or small padding
+          gap: "0", // COS uses very tight or 0 gap sometimes, let's use 2px or small padding
         }}
       >
         {filteredProducts.map((product, index) => (

@@ -24,7 +24,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/A0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫内景_Output/A0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/A1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/A2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/A3.webp",
@@ -38,7 +38,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/B3.webp",
@@ -53,7 +53,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/C0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫内景_Output/C0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/C1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/C2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/C3.webp",
@@ -67,7 +67,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/D3.webp",
@@ -82,7 +82,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/E0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫内景_Output/E0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/E1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/E2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/E3.webp"
@@ -95,7 +95,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/F0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫内景_Output/F0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/F1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/F2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/F3.webp"
@@ -108,7 +108,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/G0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫内景_Output/G0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/G1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/G2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/G3.webp"
@@ -121,7 +121,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/H0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫内景_Output/H0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/H1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/H2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/H3.webp"
@@ -134,7 +134,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫内景_Output/I0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫内景_Output/I0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/I1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/I2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫内景_Output/I3.webp"
@@ -147,7 +147,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/A3.webp",
@@ -163,7 +163,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/B3.webp",
@@ -179,7 +179,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/C3.webp",
@@ -195,7 +195,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/D0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫外景_Output/D0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/D1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/D2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/D3.webp",
@@ -209,7 +209,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/E0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫外景_Output/E0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/E1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/E2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/E3.webp",
@@ -223,7 +223,7 @@ export const products: Product[] = [
     "category": "T恤衫",
     "badge": "",
     "images": [
-      "/proxy/images/fashion/T恤衫/T恤衫外景_Output/F0.webp",
+      // "/proxy/images/fashion/T恤衫/T恤衫外景_Output/F0.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/F1.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/F2.webp",
       "/proxy/images/fashion/T恤衫/T恤衫外景_Output/F3.webp",
